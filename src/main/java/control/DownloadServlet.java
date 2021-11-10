@@ -16,8 +16,8 @@ public class DownloadServlet extends HttpServlet {
         response.setContentType("application/zip");
         //response.setContentType("image/jpg");
         PrintWriter out = response.getWriter();
-        String filename = "DienDanBacLieu.Net_Recuva 1.47.zip";
-        String filepath = "e:\\";
+        String filename = "test.js";
+        String filepath = "/app/uploadFiles/";
         response.setContentType("APPLICATION/OCTET-STREAM");
         response.setHeader("Content-Disposition", "attachment; filename=\"" + filename + "\"");
 
